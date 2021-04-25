@@ -1,0 +1,1086 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Montserrat, sans-serif;
+   
+}
+*
+{
+    box-sizing: border-box;
+}
+
+
+ /* This part is for pink box attop */
+#pink
+{
+      background-color:#f499b8;
+      text-align: center;
+      z-index: 20;
+      position: relative;
+      display:flex;
+      justify-content: center;
+     
+
+}
+.content
+{
+    position: relative;
+    width: 984px;
+    padding: auto;
+    height: 70px;
+    font-size: 14px;
+    flex-wrap: wrap;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color:#003462;
+    top:25px;
+    font-weight: bolder;
+
+}
+#pink a{
+    color:#003462;
+    text-decoration: underline;
+    
+}
+#pink a:hover{
+    color:whitesmoke;
+}
+
+/* this part is for blue box  */
+
+#bluebox
+{
+    color: rgba(255,255,255,0.6);
+    background-color:#003462 ;
+    text-transform: uppercase;
+     text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-content:center;
+      letter-spacing:0.05em;
+     font-size:14px;
+     line-height:2;
+     padding: 1em 0;
+     position: relative;
+     z-index: 20;
+     letter-spacing: 0.1em;
+     font-weight: bolder;
+}
+/* this is for teda part */
+
+#header
+{
+    position:absolute;
+    z-index: 10;
+    color: white;
+    display: flex;
+      flex-wrap: wrap;
+    height: 350px;
+    /* height: auto; */
+    padding-top: 226px;
+    margin-top: -200px;
+    width: 100%;
+    /* transform: skewY(
+-6deg 
+); */
+background-color: rgba(0,52,98,0.6);
+}
+/* #header .columns
+{
+    z-index: 999;
+    color:white;
+    position:absolute;
+} */
+#header .container{
+    position: relative;
+    margin-left:30px;
+  
+}
+.containerdhokla {
+display:inline-block
+}
+.containerdhokla h2
+{
+font-size:40px;
+margin-left:200px;
+margin-top: 10px;
+text-transform: uppercase;
+color: whitesmoke;
+font-weight: bolder;
+/* transform: skewY(
+    6deg 
+    ); */
+}
+.containerdhokla a{
+    color:white;
+    text-transform: uppercase;
+    margin-left:200px;
+    font-size:15px;
+    margin-bottom: 50px;
+    margin-left:60px;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+.containerdhokla a:hover{
+    color:whitesmoke;
+    font-weight: bolder;
+    text-decoration: underline;
+    /* opacity:0.5; */
+    transform: scale(1.25);
+    transition: transform linear 0.5s;
+
+}
+.containerdhokla .icon{
+    display:flex;
+    justify-content: flex-end;
+    margin-left:500px;
+
+}
+
+
+
+
+/* this is for big image */
+
+#Image1{
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+/* this part is for  blue image */
+
+#BlueImages
+{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    
+    flex-wrap:wrap;
+    background-color: #003462;
+    min-height:200px;
+    padding-bottom:50px;
+   
+   
+}
+
+.bluecontainer
+{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:100%;
+    
+   
+}
+.Images
+{
+    width: 230px;
+    background-color: black;
+  
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+    
+}
+.box1 , .box2 , .box3
+{
+    margin-top: 10px;
+    min-height: 230px ; 
+    padding-bottom:20px;
+   
+    
+}
+.box1{
+    background-image:  linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url("https://www.gotobermuda.com/sites/default/files/styles/large_highlight/public/3717_cc_lux.jpg?itok=KQAivdH8");
+      background-position: center;
+      background-size: cover;
+}
+.box2{
+
+    background-image:  linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url("https://www.gotobermuda.com/sites/default/files/styles/large_highlight/public/aerial-bermuda-island-airplane-skyview.jpg?itok=nlsY1H2i");
+      background-position:right; 
+      background-size: cover;  
+}
+.box3{
+    background-image:  linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url("https://www.gotobermuda.com/sites/default/files/styles/large_highlight/public/spanailbar.jpg?itok=f1uu2wjq");
+      background-position: center;
+      background-size: cover;
+}
+
+.innercontent h2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    font-family:Montserrat, sans-serif ;
+    margin-top: 25px;
+ 
+}
+.innercontent p{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color:white;
+    text-transform:capitalize;
+    font-size: 15px;
+    font-family:Montserrat, sans-serif ;
+    text-align: center;
+    padding-bottom: 20px;
+   
+}
+
+.heading  h5 {
+    font-size:14px;
+    color:white;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    letter-spacing:2px;
+    text-align: center;
+  }
+  .heading  hr {
+    width:50%;
+    border-color: white;
+    margin-bottom:20px;
+    height:0;
+  
+  
+    
+  }
+   .box1content  h3{
+    color:white;
+    line-height: 1.2;
+    font-size:20px;
+    padding:0 2em;
+    text-align:center;
+    font-family: Montserrat, sans-serif;
+    font-weight:bolder;
+    margin-bottom:30px;
+  }
+
+   .heading1  h5 {
+    font-size:14px;
+    color:white;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    letter-spacing:2px;
+    text-align: center;
+  }
+  .heading1  hr {
+    width:50%;
+    border-color: white;
+    margin-bottom:20px;
+    height:0;
+  }
+   .box2content h3{
+    color:white;
+    line-height: 1.2;
+    font-size:20px;
+    padding:0 2em;
+    text-align:center;
+    font-family: Montserrat, sans-serif;
+    font-weight:bolder;
+    margin-bottom:30px;
+  }
+
+   .heading2 h5 {
+    font-size:14px;
+    color:white;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    letter-spacing:2px;
+    text-align: center;
+  }
+ .heading2  hr {
+    width:50%;
+    border-color: white;
+    margin-bottom:20px;
+    height:0;
+  }
+  .box3content h3{
+    color:white;
+    line-height: 1.2;
+    font-size:20px;
+    padding:0 2em;
+    text-align:center;
+    font-family: Montserrat, sans-serif;
+    font-weight:bolder;
+    margin-bottom:30px;
+  }
+
+  .box1:hover , .box2:hover , .box3:hover {
+    opacity:0.5;
+    transform: scale(1.25);
+    transition: transform ease-in-out 0.5s;
+  }
+ 
+  #whiteImages
+  { 
+     margin-top: 10px;
+  }
+  
+  .whitecontainer
+  {
+      display:flex;
+      justify-content: center;
+      /* align-items: flex-start; */
+      flex-wrap: wrap;
+      width:100%; 
+      padding-bottom: 90px;
+      margin-left:auto;
+      margin-right:auto;
+     
+  }
+  .parts
+  {
+      /* width:300px; */
+      /* background-color: black; */
+      margin:5px;
+      margin-left: 30px;
+      margin-right: 30px;
+      
+  }
+  .parts p{
+      margin-top:-10px;
+  }
+  /* .dabba1 , .dabba2 , .dabba3
+  {
+      margin-top: 2%;
+      min-height: 230px ; 
+      padding-bottom:20px; 
+      margin-bottom: 20px;
+  } */
+
+.whiteDivision
+{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    
+}
+@media only screen and (max-width: 600px) {
+    .whiteDivision h3 {
+        font-size: 12px;}
+
+        .whiteDivision p {
+            font-size: 8px;
+    }
+    .containerdhokla
+    {
+        display: none;
+    }
+    .parts{
+        width: 70%;
+        
+    }
+
+    }
+.whitecontainer img{
+    width:100%;
+}
+
+
+  .whiteDivision h3{
+    
+
+    color: #18a1a7;
+    text-align: center;
+    margin-bottom: 6px;
+    font-family:  'Playfair Display' ,Georgia, 'Times New Roman',  serif ;
+    font-size : 22px;
+    letter-spacing: 2px;
+    padding-top: 13px;  
+  }
+  .whiteDivision p{
+ 
+    font-weight:normal;
+    text-align: center;
+    margin-bottom:10px;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+  }
+
+.btn{
+    border:1px solid #05838a ;
+    background-color:white;
+    padding:10px;
+    margin-top: 5px;
+    text-align: center;
+    width:100%;
+    height: auto;
+    color: #05838a;
+    text-transform: uppercase;
+    
+  }
+  .btn:hover span::after
+{
+  content:" ➤ "; 
+  padding-left:10px;
+  transition:all 250ms ease;
+
+}
+/* 
+this is pink part contains image */
+
+/* .component
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height:auto;
+} */
+#discover
+{
+    
+    padding: 20px 0 40px;
+    color: #003462;
+    /* overflow: hidden; */
+    
+}
+.fill-pink
+{
+    background-color:#f499b8; 
+height:600px;
+}
+.innerpart h2{
+    color: #003462;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 6px;
+    font-size: 34px;
+    font-family: "Playfair Display","Georgia","Times New Roman",serif;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+.innerpart em{
+    text-transform: capitalize;
+}
+
+.innerpart p{
+    
+    text-align: center;
+    margin-left:auto;
+    font-size:14px;
+    font-weight: bold;
+    letter-spacing:1px;
+
+}
+
+.buttonboxes
+{
+   display: flex;
+justify-content: center;
+  
+   font-size: 15px;
+   flex-wrap: wrap;
+   width:100%;
+    padding: 4px 12px;
+  
+}
+.b1 ,.b2 , .b3{
+   
+    border:1.5px #003462 solid;
+    color: #003462;
+    text-transform: uppercase;
+    padding:10px;
+    text-align: center;
+    margin-top: 10px;
+    width:120px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.b1{
+    background-color:#003462; 
+    color: white;
+}
+.b2:hover , .b3:hover{
+    background-color:#003462; 
+    color: white;
+    transition: ease-in-out 250ms;;
+}
+#imageplusbox .imagecontent  img
+{
+    height:auto;
+    width:100%;
+    max-width:500px;
+    margin-top: 20px;
+    display: flex;
+    margin-left:30%;
+    /* margin-right: auto; */
+}
+#imageplusbox
+{
+    position: static;
+    height:400px;
+
+}
+#imageplusbox .content
+{
+    height:230px;
+    width:400px;
+    background-color: white;
+    position:relative;
+  margin-top:-220px;
+    left:900px;
+    align-items: center;
+    /* margin-bottom: 50px; */
+    /* margin-left:auto;
+    margin-right: auto; */
+
+}
+#imageplusbox .contentheadings
+{
+    background-color: #003462;
+    color: white;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    padding: 1px 0;
+    margin: 0;
+    font-family: "montserratregular";
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1;
+}
+#imageplusbox .subheading h5
+{
+    text-transform: uppercase;
+   max-width: 60%;
+    /* float: right;
+    display:inline-block;
+    margin-bottom:10px;
+    /* vertical-align: top; */
+    font-family: "montserratbold";
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    color: #003462;
+}
+ .leftcol img
+{
+    height:40%;
+    width:30%;
+
+}
+.rightcol p{
+    margin: 10px 0 20px 0;
+}  
+.whitesection
+{
+    display:flex;
+    justify-content:space-around;
+}
+.leftcol img{
+    width:107px;
+    height:107px;
+    margin-top:30px;
+    margin-left:20px;
+}
+.headingandpara
+{
+    align-items:center;
+    float:left;  
+}
+
+
+/* this is dynamic image  */
+.backgroundimage
+{
+    background-image: url("https://www.gotobermuda.com/sites/default/files/styles/front_hero/public/shipwreck-vixen-fun-fact.jpg?itok=r72vSGUa");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position:center;
+  display:flex;
+  flex-wrap: wrap;
+  margin-top:-28px;
+    height:auto;
+    width: 100%;
+   
+    
+}
+.transparentimage
+{
+    /* width:400px; */
+    height:auto;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    top:1px;
+    padding: 1.75em;
+    max-width: 440px;
+    background-color: rgba(0,52,98,0.9);
+    box-shadow: 0 0 34px rgb(0 0 0 / 70%);
+
+}
+.transparentimage h2{
+    color: white;
+    font-size: 34px;
+    font-weight: 900;
+    font-style: italic;
+    font-family: "Playfair Display","Georgia","Times New Roman",serif;
+    text-transform: none;
+    line-height: 1.1;
+    margin-bottom:6px;
+    text-align:center;
+}
+.transparentimage p{
+    color: white;
+    margin: 0 0 20px 0;
+    text-align:center;
+    display: block;
+
+}
+
+.transparentimage .btn{
+    display: inline-block;
+    font-family: "montserratregular";
+    font-size: 13px;
+    line-height: normal;
+    padding: 6px 24px;
+    border: 1.5px solid #003462;
+    transition: all 250ms ease-in-out;
+    background-color: transparent;
+    color:white;
+    border-color: white;
+    width:150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.transparentimage .btn:hover span::after{
+    
+
+      content:" ➤ "; 
+      padding-left:10px;
+      transition:all 250ms ease;
+    
+    }
+    /* this is for highlight section */
+.highlights
+{
+    width:100%;
+    height:auto;
+    z-index:99;
+   
+}
+.highlights h2
+{
+    text-transform: uppercase;
+    color: #003462;
+    font-family: "montserratregular";
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.highlights .container
+{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+.highlights .six
+{
+    width:150px;
+    margin:10px;  
+}
+.highlights .first ,.second,.third ,.fourth ,.fifth ,.sixth
+{
+   min-height:auto;
+}
+.firstimg , .secondimg , .thirdimg , .fourthimg  , .fifthimg , .sixthimg 
+{
+    height:auto;
+    width:100%;
+}
+.caption
+{
+    background-color: rgba(0,52,98,0.9);
+    padding: 7px 1em;
+    font-family: "montserratbold";
+    font-weight: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1.2;
+    position: relative;
+    /* margin-left:-150px;
+    margin-right: -150px; */
+    bottom: 30px;
+    left: 0;
+    width:150px;
+    height: auto;
+    display:block;
+    
+}
+.caption:hover
+{
+
+    opacity:0.9;
+    /* transform: scale(1.25); */
+    transition: padding ease-in-out 0.5s;
+    font-weight: bolder;
+}
+
+.initialbutton
+{
+    border-color: #003462;
+    color: #003462;
+   text-align: center;
+    display: inline-block;
+    /* display:flex; */
+ 
+    flex-wrap: wrap;
+    font-family: "montserratregular";
+    font-size: 15px;
+    line-height: normal;
+    padding: 6px 24px;
+    position: absolute;
+    text-transform: uppercase;
+     /* width:40%; */
+    margin-left:500px;
+    margin-right: 500px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .initialbutton
+    {
+        margin-left:50px;
+    }
+    .hiddenbox
+    {
+        display:none;
+    }
+    .imagecontent{
+        width:70%;
+    }
+    .backgroundimage
+    {
+        margin-top:-200px;
+    }
+    .covid{
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+    .lighningimage
+    {
+        display:none;
+    }
+    .containerfooter
+    {
+        flex-direction: column;
+        flex-wrap:wrap;
+        text-align:center;
+
+    }
+
+    
+
+}
+
+ .initialbutton:hover span::after{
+    
+
+    content:" ➤ "; 
+    padding-left:10px;
+    transition:all 250ms ease;
+  
+  }
+/* this is for instagram post */
+
+  .instagram
+  {
+      width:100%;
+      
+      background-color: #003462;
+      margin-top: 60px;
+      width:100%;
+    height:auto;
+  }
+  .instagram .container
+{
+display: flex;
+justify-content:center;
+flex-wrap: wrap;
+
+}
+.instagram .posts
+{
+    width:200px;
+    margin:10px; 
+   
+}
+.instagram .one ,.two,.three ,.four ,.five,.six ,.seven , .eight , .nine , .ten , .eleven ,.twelve , .thirteen , .fourteen ,.fifteen
+,.sixteen ,.seventeen , .eightteen, .ninteen , .twenty
+{
+  height:200px;
+}
+.container img{
+    height:100%;
+    width:100%;
+}
+.container img:hover{
+    opacity:0.9;
+    transform: scale(1.25);
+    transition:transform ease-in-out 0.5s;
+    font-weight: bolder;
+}
+.instagram h2
+{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: "montserratregular";
+    font-weight: normal;
+    color: white;
+    padding-top: 30px;
+
+    margin-bottom: 10px
+}
+.instagram p{
+    margin: 0 0 20px 0;
+    color: white;
+    font-family: "montserratregular";
+   letter-spacing: 1.2;
+}
+
+#footer
+{
+    width:100%;
+    height:auto;
+    padding: 0 0 60px;
+    color: #003462;
+    margin-top:30px;
+}
+.oceanblue
+{
+    text-align: center;
+    padding: 10px 0;
+    background-color: #78cdd1;
+    width:100%;
+    height:auto;
+    /* column-count: 3; */
+    margin-left: auto;
+    margin-right: auto;
+}
+#footer .container{
+    /* position: relative; */
+    /* width: 984px; */
+    width:100%;
+    margin: 0 auto;
+    padding: 0;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* flex-wrap:wrap; */
+    
+}
+#footer .col
+{
+    /* display: inline-block; */
+    vertical-align: middle;
+    width: 100%;
+    margin: 0 0 20px;
+}
+#footer .col h3{
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.2;
+    text-transform: none;
+    font-family: "montserratlight","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    color: #003462;
+}
+
+#footer .col h3 span{
+    font-size: 1.8em;
+    font-weight: 900;
+    font-family: "Playfair Display","Georgia","Times New Roman",serif;
+}
+#footer  .button{
+    width: 60%;
+    background-color: #003462;
+    color: white;
+    font-size: 16px;
+    padding: 10px 18px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: normal;
+    border: 1.5px solid #003462;
+    display: inline-block;
+    font-family: "montserratregular";
+letter-spacing:0.2em ;
+}
+#footer p{
+    font-size: 13px;
+    line-height: 1.2;
+    margin: 0;
+    color: #003462;
+}
+#footer .col img{
+    width:100px;
+    height:auto;
+    display: block;
+    margin: 10px auto 0;
+    max-width: 100%;
+   
+}
+#footer .verybottom
+{
+    background-color: #003462;
+    zoom: 1;
+    padding: 10px 0;
+    margin-bottom: 0 ;
+    width:100%;
+    height: auto;
+}
+#footer .containerfooter {
+    display:flex;
+    justify-content: space-around;
+
+}
+#footer .containerfooter a{
+color:white;
+text-decoration: none;
+/* margin-left: auto;
+margin-right:auto; */
+}
+#footer .container a:hover{
+    font-weight: bolder;
+}
+
+.lighningimage
+{
+    position:relative;
+    height:auto;
+    overflow:hidden;
+
+}
+.lighningimage::after{
+    
+        content: "";
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        -moz-transform: translate(-50%,0) rotate(45deg);
+        -ms-transform: translate(-50%,0) rotate(45deg);
+        -webkit-transform: translate(-50%,0) rotate(
+    45deg
+    );
+        transform: translate(-50%,0) rotate(
+    45deg
+    );
+        width: 950px;
+        height: 950px;
+        background-color: rgba(255,255,255,0.65);
+        z-index: 1;
+
+
+
+        
+    }
+    .lightingtext
+    {
+        display:flex;
+        flex-direction: column;
+        position:absolute;
+        top:150px;
+        left:430px;
+        color: #003462;
+        z-index:13;
+        text-align: center;
+    }
+ .lightingtext h2{
+    text-transform: uppercase;
+    font-family: "montserratregular";
+    line-height: 1.1;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+ .lightingtext h3
+ {
+     
+    text-transform: none;
+    margin: 0;
+    font-weight: 900;
+    font-family: "Playfair Display","Georgia","Times New Roman",serif;
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: bolder;
+ }
+.lightbutton{
+    border-color: #003462;
+    color: #003462;
+   text-align: center;
+    display: inline-block;
+    flex-wrap: wrap;
+    font-family: "montserratregular";
+    font-size: 15px;
+    line-height: normal;
+    padding: 6px 24px;
+    position: absolute;
+    text-transform: uppercase;
+     /* width:40%; */
+     margin-left:130px;
+    /* margin-right: 500px;  */
+    top:200px;
+}
+.lightbutton:hover span::after{
+    
+
+    content:" ➤ "; 
+    padding-left:10px;
+    transition:all 250ms ease;
+  
+
+
+}
+ #footer .legal p
+ {
+    margin: 15px 0 0;
+    text-align: center;
+    color: #003462;
+    font-size: 12px ;
+    line-height: 1.3 ;
+ }
+ .legal a{
+    transition: ease-in-out 250ms;
+    color: #bc4e4f;
+    text-decoration: underline;
+ }
